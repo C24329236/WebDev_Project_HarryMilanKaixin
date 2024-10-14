@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact John O'Reilly</title>
+    <link rel="stylesheet" href="contactstyles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact John O'Reilly</h1> <!-- Title at top of page -->
+        <nav> <!-- Navigation Menu -->
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section> <!-- Contact Form -->
+        <h2>Any Inquiries?</h2>
+            <form action="/submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="Mobile">Mobile:</label>
+            <input type="Mobile" id="Mobile" name="Mobile" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+
+    <section>
+        <h2>Where to find Us:</h2> 
+        <!-- Google Map of location -->
+        
+        <div style="width: 100%">
+            <iframe width="80%" height="500" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=tud%20grangegorman+(John's%20Garage)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a>
+            </iframe>
+        </div>
+    
+    </section>
+
+    <hr>
+
+    <footer> <!-- Footer -->
+        <p>&copy; 2024 John O'Reilly's Car Collection.</p>
+    </footer>
+</body>
+</html>
